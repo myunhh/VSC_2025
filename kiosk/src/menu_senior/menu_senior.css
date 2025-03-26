@@ -1,0 +1,80 @@
+.contents {
+    width: 100%;
+    /* height: calc(100vh - 165px); */
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.contents h3 {
+    font-weight: 600;
+    font-size: 1.3em;    
+}
+
+.contents h4 {
+    font-weight: 500;
+    font-size: 1.1em;    
+}
+
+.menuList {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin:0 auto;
+    width: 90%;
+    height: max-content;
+    padding-bottom: 36vh;
+    align-content: flex-start;
+    box-sizing: content-box;
+}
+.menuList div.menuBox {
+    margin:10px 1vh 40px 1vh;
+}
+
+.menuList div.menuBox p:first-child {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 290px;
+    height: 265px;  
+    overflow: hidden;  
+}
+
+.menuList div.menuBox p:first-child img {
+    width: 100%;
+    margin-top:-10px;
+}
+
+.menuList div.menuBox p:nth-child(2), 
+.menuList div.menuBox p:nth-child(3) {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.base-btn {
+    background-color: #ff7300;
+    width: 45%;
+    height: 50px;
+    color: #fff;
+    padding: 0.125rem 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.control-btn {
+    font-size: 20px;
+}
+
+.total-price {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.total-price span {
+    color:#ff0000;
+}
+
+.orColor{
+    color: #ff7300;
+}

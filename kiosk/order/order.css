@@ -1,0 +1,74 @@
+
+.orderedList ul li {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 0.5rem;
+    padding: 10px;
+    align-items: center;
+}
+.orderedList ul li div.order-info {
+    display: block;
+    flex:1 auto;
+}
+.order-info div.first, .order-info div.second {
+    display: flex;
+    align-items: center;
+    /* white-space: nowrap;
+    word-break: break-all;
+    word-wrap: break-word; */
+    text-align: left;
+    /* justify-content: space-around; */
+}
+
+.orderedList ul li img {
+    width: 70px;
+    height: 70px;
+    vertical-align: middle ;
+    margin-top:-7px;
+}
+.orderedList ul li p {
+    margin:0 10px 0 0;
+}
+
+.order-info div.second {
+    margin-top:6px
+}
+
+div.second p:first-child,
+div.second p:nth-child(3) {
+    width: 30px;
+    margin-right: 15px;
+}
+
+div.second p:nth-child(2) {
+    width: 50px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+div.second p:nth-child(4) {
+    flex:1 auto;    
+}
+
+.single-total {
+    font-weight: 600;
+    color:#ff0000;
+}
+
+.orderedList button {
+    color: #2a2a2a;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 0.25rem;    
+    background-color: #fff;
+    padding: 3px 4px 0 4px;
+}
+
+.menu-name {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.control-btn {
+    font-size: 20px;
+}

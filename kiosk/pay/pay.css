@@ -1,0 +1,97 @@
+.BtnGrp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payBtn {
+  padding: 0.375rem 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  height: 100px;
+  width: 100px;
+  margin: 20px 20px 0px 20px;
+}
+
+.payName {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 100px;
+  margin: 0px 20px;
+}
+
+.payName-senior {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  width: 100px;
+  margin: 0px 20px;
+}
+
+.bar {
+  display: flex;
+  padding: 15px 30px;
+  margin-top: 25px;
+  background-color: #ececec;
+}
+
+.bar-senior {
+  display: flex;
+  padding: 15px 30px;
+  margin-top: 25px;
+  background-color: #ececec;
+  font-size: 1.2rem;
+}
+
+.amount {
+  text-align: right;
+  padding: 15px 30px 0px 30px;
+}
+
+.amount-senior {
+  text-align: right;
+  padding: 15px 30px 0px 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.total {
+  color:#ff0000;
+}
+
+.creditCard {
+  background: url("/public/images/card-pay.svg") no-repeat center;
+  background-color: rgba(0, 0, 0, 0.05);
+  background-size: 60%;
+}
+
+.creditCardSel {
+  background: url("/public/images/card-pay-selected.svg") no-repeat center;
+  background-color: #ff7300;
+  background-size: 60%;
+}
+
+.apple {
+  background: url("/public/images/apple-pay.svg") no-repeat center;
+  background-color: rgba(0, 0, 0, 0.05);
+  background-size: 60%;
+}
+
+.applesel {
+  background: url("/public/images/apple-pay-selected.svg") no-repeat center;
+  background-color: #ff7300;
+  background-size: 60%;
+}
+
+.samsung {
+  background: url("/public/images/samsung-pay.svg") no-repeat center;
+  background-color: rgba(0, 0, 0, 0.05);
+  background-size: 60%;
+}
+
+.samsungsel {
+  background: url("/public/images/samsung-pay-seleted.svg") no-repeat center;
+  background-color: #ff7300;
+  background-size: 60%;
+}

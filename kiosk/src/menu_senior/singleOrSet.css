@@ -1,0 +1,39 @@
+h5.tip {
+    padding: 0px 15px;
+    font-size: 15px;
+}
+
+.choice-btn {
+    color: #222;
+    height: 100%;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1.5;
+    transition: background-color 0.25s;
+}
+
+.choice-btn:hover {
+    background-color: #fd7200;
+    color:#fff;
+}
+
+.singleSet-wrap {
+    display: flexbox;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 43.8%;
+}
+
+.setBtn-list {
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+}

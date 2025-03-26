@@ -1,0 +1,41 @@
+.text {
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: solid 3px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  font-size: 35px;
+  margin: 50px;
+  background-color: #fd7200;
+  color: #ffff;
+}
+
+.camDisplay {
+  margin-top: 100px;
+  border-radius: 30px;
+  border: solid rgb(255, 119, 40);
+}
+
+.base {
+  width: 100%;
+  height: 100vh;
+  background: url("/public/images/burger-big.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.an {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 0;
+    opacity: 0;
+  }
+
+  to {
+    margin-top: 100px;
+    opacity: 1;
+  }
+}

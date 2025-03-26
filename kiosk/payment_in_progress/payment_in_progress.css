@@ -1,0 +1,46 @@
+/* 결제가 진행중입니다. 카드를 빼지 마세요. */
+.guide_pay {
+  position: absolute;
+  width: 354px;
+  left: calc(50% - 354px / 2);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 10px;
+  color: #000000;
+}
+
+/* 결제중... */
+
+.pay_progressing {
+  position: absolute;
+  width: 252px;
+  left: calc(50% - 252px / 2);
+  top: 45%;
+  bottom: 52.5%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 85px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 이미지 파일... */
+.image_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_card img {
+  margin-top: 125px;
+  width: 200px;
+}
