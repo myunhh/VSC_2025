@@ -3,6 +3,9 @@
 int main(){
   
   printf("Hello World");
+
+  printf("Testing");
+
   return 0;
 }
 
