@@ -1,7 +1,7 @@
 {
   "files.encoding": "utf8",
   "files.autoGuessEncoding": true,
-  "C_Cpp.default.compilerArgs": [
-      "-finput-charset=UTF-8"
-  ]
+  "C_Cpp.default.compilerArgs": ["-finput-charset=UTF-8"],
+  "cmake.sourceDirectory": "D:/VSC_2025/flutter/examples/platform_view/linux",
+  "dart.showTodos": false
 }
